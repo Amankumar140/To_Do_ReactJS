@@ -30,3 +30,4 @@ A simple and elegant Todo App built with **React** and styled using **Tailwind C
 ```bash
 git clone https://github.com/Amankumar140/To_Do_ReactJS.git
 cd ToDo
+npm install
