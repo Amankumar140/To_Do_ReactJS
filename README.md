@@ -19,7 +19,7 @@ A simple and elegant Todo App built with **React** and styled using **Tailwind C
 
 ## 📸 Preview
 
-![Todo App Screenshot](./screenshot/Screenshot%202025-04-24%20015459.png)
+![Todo App Screenshot](./screenshot/Screenshot%202025-04-24%20015352.png)
 
 > _"Success is the sum of small efforts, repeated day in and day out."_ – Robert Collier
 
