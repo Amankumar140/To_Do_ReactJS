@@ -38,30 +38,7 @@ const App = () => {
     localStorage.setItem("todos",JSON.stringify(todos))
   },[todos])
 
-  // return (
-  //   <TodoProvider value={{todos,addTodo,toggleComplete,deleteTodo,updateTodo}}>
-  //     <div className="bg-[#172842] min-h-screen py-8">
-  //       <div className="w-full max-w-2xl mx-auto shadow-md rounded-lg px-4 py-3 text-white">
-  //         <h1 className="text-2xl font-bold text-center mb-8 mt-2">
-  //           Manage Your Todos
-  //         </h1>
-  //         <div className="mb-4">{/* Todo form goes here */
-  //         }
-  //         <TodoForm/>
-  //         </div>
-  //         <div className="flex flex-wrap gap-y-3">
-  //           {/*Loop and Add TodoItem here */}
-  //         {todos.map((todo)=>(
-  //           <div key={todo.id} className="w-full">
-  //             <TodoItem todo={todo} />
-  //           </div>
-  //         ))}
-
-  //         </div>
-  //       </div>
-  //     </div>
-  //   </TodoProvider>
-  // );
+   
   return (
     <TodoProvider value={{ todos, addTodo, toggleComplete, deleteTodo, updateTodo }}>
       <div className="min-h-screen bg-gradient-to-b from-[#0f172a] to-[#1e293b] text-white px-4 py-10">
@@ -70,7 +47,7 @@ const App = () => {
           <header className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-extrabold mb-4">🧠 Stay Productive</h1>
             <p className="text-lg text-gray-300 max-w-xl mx-auto">
-              “Success is the sum of small efforts, repeated day in and day out.” – Robert Collier
+              Success is the sum of small efforts, repeated day in and day out. – Robert Collier
             </p>
           </header>
   
@@ -102,7 +79,7 @@ const App = () => {
   
           {/* Footer Quote */}
           <footer className="mt-16 text-center text-sm text-gray-500">
-            <p>“The secret of getting ahead is getting started.” – Mark Twain</p>
+            <p>The secret of getting ahead is getting started. – Mark Twain</p>
           </footer>
         </div>
       </div>
